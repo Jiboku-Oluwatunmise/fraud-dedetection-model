@@ -18,4 +18,18 @@ To compare the effectiveness of various models, it was tested and trained in ord
 
   3. Feature Engineering: This entails the selection of new data from old data. Through feature engineering, we were able to define the data which would be used for training and testing. Hot - encoding was done to convert categorical variables to integers, moreover, unneccessary columns such as customer name was reoved. 
  
-  4. Modelling: Modelling entails the creation of a decision making process. After conducting feature engineering, we import libaries, created functions and dataframes for the follwoing models: (a)  
+  4. Modelling: Modelling entails the creation of a decision making process. After conducting feature engineering, we import libaries, created functions and dataframes for the follwoing models: (a) LogisticRegression (b) DecisionTreeClassifier (c) KNeighborsClassifier (d) RandomForestClassifier. 
+ 
+  5.  Training: Through the defined functions and dataframes, each models were trained and the following is a quick description of the results: (a) LogisticRegression, Accuracy score is 0.9990  (b) DecisionTreeClassifier, Accuracy score is 0.9995 (c) KNeighborsClassifier, Accuracy score is 0.9993 (d) RandomForestClassifier, Accuracy score is 0.9998
+ 
+  6. Testing: After training, testing was conducted through the cross validation using K-fold. and the following was deduced: (a) LogisticRegression, Accuracy score is 0.9991  (b) DecisionTreeClassifier, Accuracy score is 0.9996 (c) KNeighborsClassifier, Accuracy score is 0.9994 (d) RandomForestClassifier, Accuracy score is 0.9998
+  
+  8. Interpretation and final remarks were made which highlighted RandomForestClassifier as the most accurate model which the bank should integrate into its processes to dedect fradulent transactions. 
+
+
+
+
+
+
+
+
