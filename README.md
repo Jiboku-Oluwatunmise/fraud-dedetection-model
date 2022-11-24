@@ -31,6 +31,8 @@ The following were the challenges which I had conducting this project:
   1. The EDA was a bit challenging due to inability to generate comparative graphs without defining further functions
   2. The model consumed a lot of time 
   3. Feature importance seemed irrelevant because of a limited amount of columns used after deature engineering. 
+  
+  ## Link to dataset: https://drive.google.com/file/d/1ZIjmAjPccvy16mOk7nrPtWe-_3rRP5zy/view?usp=sharing
 
 
 
