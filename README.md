@@ -16,9 +16,9 @@ To compare the effectiveness of various models, it was tested and trained in ord
       (d) The least transactions were > greater than 9 million
       (e) Transactions greater than 5 million usually took up to 40 hours
 
-  3. Feature Engineering: This entails the selection of new data from old data. Through feature engineering, we were able to define the data which would be used for training and testing. Hot - encoding was done to convert categorical variables to integers, moreover, unneccessary columns such as customer name was reoved. 
+  3. Feature Engineering: This entails the selection of new data from old data. Through feature engineering, I was able to define the data which would be used for training and testing. Hot - encoding was done to convert categorical variables to integers, moreover, unneccessary columns such as customer name was reoved. 
  
-  4. Modelling: Modelling entails the creation of a decision making process. After conducting feature engineering, we import libaries, created functions and dataframes for the follwoing models: (a) LogisticRegression (b) DecisionTreeClassifier (c) KNeighborsClassifier (d) RandomForestClassifier. 
+  4. Modelling: Modelling entails the creation of a decision making process. After conducting feature engineering, I imported libaries, created functions and dataframes for the follwoing models: (a) LogisticRegression (b) DecisionTreeClassifier (c) KNeighborsClassifier (d) RandomForestClassifier. 
  
   5.  Training: Through the defined functions and dataframes, each models were trained and the following is a quick description of the results: (a) LogisticRegression, Accuracy score is 0.9990  (b) DecisionTreeClassifier, Accuracy score is 0.9995 (c) KNeighborsClassifier, Accuracy score is 0.9993 (d) RandomForestClassifier, Accuracy score is 0.9998
  
@@ -26,7 +26,11 @@ To compare the effectiveness of various models, it was tested and trained in ord
   
   8. Interpretation and final remarks were made which highlighted RandomForestClassifier as the most accurate model which the bank should integrate into its processes to dedect fradulent transactions. 
 
-
+## Challenges
+The following were the challenges which I had conducting this project: 
+  1. The EDA was a bit challenging due to inability to generate comparative graphs without defining further functions
+  2. The model consumed a lot of time 
+  3. Feature importance seemed irrelevant because of a limited amount of columns used after deature engineering. 
 
 
 
